@@ -1,5 +1,5 @@
 {
-  "name": "Search Reddit tool",
+  "name": "Search on Reddit tool",
   "version": "1.0.0",
   "description": "Uses a search engine to find results filtered to the Reddit website",
   "manifest_version": 3,
