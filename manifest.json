@@ -1,9 +1,10 @@
 {
   "name": "Search Reddit tool",
   "version": "1.0.0",
-  "description": "Uses a search engine to find results on the Reddit website",
+  "description": "Uses a search engine to find results filtered to the Reddit website",
   "manifest_version": 3,
   "permissions": ["search", "storage", "tabs", "scripting", "background"],
+  "host_permissions": ["https://www.google.com/"],
   "icons": {
     "48": "images/icon_48.png",
     "96": "images/icon_96.png"
@@ -12,7 +13,7 @@
     "default_title": "Search Reddit",
     "default_icon": "images/icon_96.png",
     "default_popup": "popup.html",
-    "chrome_style": true
+    "chrome_style": false
   },
   "background": {
     "service_worker": "search.js"

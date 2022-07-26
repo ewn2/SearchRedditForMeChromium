@@ -5,8 +5,15 @@ function search(args) {
     terms = encodeURIComponent(terms)
     url = url + terms;
     params = {
-            'url': url,
-            'active': true
-        };
-        chrome.tabs.create(params)
+        'url': url,
+        'active': true
+    };
+    chrome.tabs.create(params, function (newTab) {
+        chrome.scripting.executeScript(
+            {
+                target: {tabId: newTab.id},
+                files: ['tabPlacer.js'],
+            }
+        )
+    });
 }
