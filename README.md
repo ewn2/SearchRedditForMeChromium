@@ -7,3 +7,5 @@ Installation Links<br>
 Google Chrome/Chromium: Awaiting Approval
 
 Firefox: https://addons.mozilla.org/en-US/firefox/addon/search-on-reddit-tool/<br><br>
+
+https://github.com/ewn2/SearchRedditForMe
