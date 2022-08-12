@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Uses a search engine to find results filtered to the Reddit website",
   "manifest_version": 3,
-  "permissions": ["tabs", "scripting"],
+  "permissions": ["scripting"],
   "host_permissions": ["https://www.google.com/"],
   "icons": {
     "48": "images/icon_48.png",
